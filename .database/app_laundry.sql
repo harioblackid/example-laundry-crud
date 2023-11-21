@@ -9,7 +9,7 @@
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "+07:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -45,9 +45,7 @@ CREATE TABLE `tbl_karyawan` (
 --
 
 INSERT INTO `tbl_karyawan` (`id`, `nama`, `username`, `password`, `email`, `no_hp`, `alamat`, `catatan`, `image`, `role`) VALUES
-(1, 'Wildan Hafidz Mauludin', 'admin', '$2y$10$MTm15IHxkcTNGTMoPMRcaeMyYqGIc5U6UPk4PymX/sggGNSyT4hMe', 'admin@dikitalaundry.com', '+6285320357152', 'Simpang Remujung Lowokwaru Malang Jawa Timur', 'Focusing', '108Foto Profile.jpeg', 'Admin'),
-(2, 'Yasmine Navisha Andani', '<br />\r\n<b>Warning</b>:  Undef', '$2y$10$mp5Uet8mXWCTKY9OIU7LyOUHXoXZMXMmE1bAHxjhFYHz/FOOPY1t6', 'yasminenavisha@gmail.com', '08520357152', 'Dinoyo Malang Jawa Timur', 'Targeting', '925Dikita Laundry.png', 'Karyawan');
-
+(1, 'Hario Saloko, S.Kom', 'admin', '$2y$10$MTm15IHxkcTNGTMoPMRcaeMyYqGIc5U6UPk4PymX/sggGNSyT4hMe', 'admin@dikitalaundry.com', '+6285320357152', 'Jl. Syech Quro Telagasari Karawang', 'Focusing', '108Foto Profile.jpeg', 'Admin');
 -- --------------------------------------------------------
 
 --
